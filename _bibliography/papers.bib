@@ -3,6 +3,61 @@
 
 @string{jcim = {J. Chem. Inf. Model.,}}
 
+@ARTICLE{Jones2024-id,
+  title     = "{HDBind}: encoding of molecular structure with hyperdimensional
+               binary representations",
+  author    = "Jones, Derek and Zhang, Xiaohua and Bennion, Brian J and Pinge,
+               Sumukh and Xu, Weihong and Kang, Jaeyoung and Khaleghi, Behnam
+               and Moshiri, Niema and Allen, Jonathan E and Rosing, Tajana S",
+  journal   = "Sci. Rep.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  14,
+  number    =  1,
+  pages     =  29025,
+  month     =  nov,
+  year      =  2024,
+  bibtex_show=true,
+  year=2024,
+  selected=true,
+}
+
+
+@ARTICLE{Stevenson2023-qd,
+  title    = "Clustering Protein Binding Pockets and Identifying Potential Drug
+              Interactions: A Novel Ligand-Based Featurization Method",
+  author   = "Stevenson, Garrett A and Kirshner, Dan and Bennion, Brian J and
+              Yang, Yue and Zhang, Xiaohua and Zemla, Adam and Torres, Marisa W
+              and Epstein, Aidan and Jones, Derek and Kim, Hyojin and Bennett, W
+              F Drew and Wong, Sergio E and Allen, Jonathan E and Lightstone,
+              Felice C",
+  journal  = "J. Chem. Inf. Model.",
+  volume   =  63,
+  number   =  21,
+  pages    = "6655--6666",
+  abstract = "Protein-ligand interactions are essential to drug discovery and
+              drug development efforts. Desirable on-target or multitarget
+              interactions are the first step in finding an effective
+              therapeutic, while undesirable off-target interactions are the
+              first step in assessing safety. In this work, we introduce a novel
+              ligand-based featurization and mapping of human protein pockets to
+              identify closely related protein targets and to project novel
+              drugs into a hybrid protein-ligand feature space to identify their
+              likely protein interactions. Using structure-based template
+              matches from PDB, protein pockets are featured by the ligands that
+              bind to their best co-complex template matches. The simplicity and
+              interpretability of this approach provide a granular
+              characterization of the human proteome at the protein-pocket level
+              instead of the traditional protein-level characterization by
+              family, function, or pathway. We demonstrate the power of this
+              featurization method by clustering a subset of the human proteome
+              and evaluating the predicted cluster associations of over 7000
+              compounds.",
+  month    =  nov,
+  year     =  2023,
+  language = "en",
+  bibtex_show=true,
+}
+
 
 @booklet{jones289_acs_fall_meet_2021,
 author={Derek Jones},
@@ -38,6 +93,23 @@ URL= {},
 bibtex_show=true,
 }
 
+@ARTICLE{Bernardi2023-kz,
+  title     = "Advances in computational approaches for estimating passive
+               permeability in drug discovery",
+  author    = "Bernardi, Austen and Bennett, W F Drew and He, Stewart and Jones,
+               Derek and Kirshner, Dan and Bennion, Brian J and Carpenter,
+               Timothy S",
+  journal   = "Membranes",
+  publisher = "MDPI AG",
+  volume    =  "",
+  number    =  "",
+  pages     =  "",
+  month     =  "",
+  year      =  2023,
+  selected=false,
+  bibtex_show=true,
+}
+
 
 @ARTICLE{Jones_2022-uq,
   title   = "Accelerators for Classical Molecular Dynamics Simulations of
@@ -70,6 +142,7 @@ bibtex_show=true,
   year     =  2021,
   language = "en",
   selected = "true",
+  doi      = "http://dx.doi.org/10.1021/acs.jcim.0c01306",
 bibtex_show=true,
 }
 
@@ -217,49 +290,5 @@ bibtex_show=true,
 
 
 
-@ARTICLE{Jones2023-mn,
-  title         = "{HD-Bind}: Encoding of Molecular Structure with Low
-                   Precision, Hyperdimensional Binary Representations",
-  author        = "Jones, Derek and Allen, Jonathan E and Zhang, Xiaohua and
-                   Khaleghi, Behnam and Kang, Jaeyoung and Xu, Weihong and
-                   Moshiri, Niema and Rosing, Tajana S",
-  abstract      = "Publicly available collections of drug-like molecules have
-                   grown to comprise 10s of billions of possibilities in recent
-                   history due to advances in chemical synthesis. Traditional
-                   methods for identifying ``hit'' molecules from a large
-                   collection of potential drug-like candidates have relied on
-                   biophysical theory to compute approximations to the Gibbs
-                   free energy of the binding interaction between the drug to
-                   its protein target. A major drawback of the approaches is
-                   that they require exceptional computing capabilities to
-                   consider for even relatively small collections of molecules.
-                   Hyperdimensional Computing (HDC) is a recently proposed
-                   learning paradigm that is able to leverage low-precision
-                   binary vector arithmetic to build efficient representations
-                   of the data that can be obtained without the need for
-                   gradient-based optimization approaches that are required in
-                   many conventional machine learning and deep learning
-                   approaches. This algorithmic simplicity allows for
-                   acceleration in hardware that has been previously
-                   demonstrated for a range of application areas. We consider
-                   existing HDC approaches for molecular property
-                   classification and introduce two novel encoding algorithms
-                   that leverage the extended connectivity fingerprint (ECFP)
-                   algorithm. We show that HDC-based inference methods are as
-                   much as 90 times more efficient than more complex
-                   representative machine learning methods and achieve an
-                   acceleration of nearly 9 orders of magnitude as compared to
-                   inference with molecular docking. We demonstrate multiple
-                   approaches for the encoding of molecular data for HDC and
-                   examine their relative performance on a range of challenging
-                   molecular property prediction and drug-protein binding
-                   classification tasks. Our work thus motivates further
-                   investigation into molecular representation learning to
-                   develop ultra-efficient pre-screening tools.",
-  month         =  mar,
-  year          =  2023,
-  archivePrefix = "arXiv",
-  primaryClass  = "q-bio.BM",
-  eprint        = "2303.15604"
-}
+
 
